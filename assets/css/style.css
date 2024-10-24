@@ -1383,6 +1383,32 @@ input[type=search]::-webkit-search-results-decoration {
   font-size: 15px;
   color: white !important;
 }
+.site-logo{
+  max-width: 100px !important;
+}
+.bg-nav{
+  background-color: white !important;
+  padding: 5px 10px !important;
+}
+.nav-link a {
+  color: black !important;
+}
+.bg-footer{
+  background-color: #0d1327 !important;
+}
+ .features_block{
+  height: 350px !important;
+  
+ }
+.site-logo-footer{
+  width: 80% !important;
+}
+
+.client-img{
+width: 100% !important;
+object-fit: cover;
+min-height: 50px !important;
+}
 .iconbox_block.icon_left {
   gap: 20px;
   display: flex;
