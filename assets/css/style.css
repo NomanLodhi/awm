@@ -1398,8 +1398,28 @@ input[type=search]::-webkit-search-results-decoration {
 }
  .features_block{
   height: 350px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+.features_block::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.features_block::-webkit-scrollbar-track {
+  background:transparent;
+}
+
+.features_block::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px; 
+}
+
+.features_block::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.9); /* Slightly more visible on hover */
+}
+
   
- }
 .site-logo-footer{
   width: 80% !important;
 }
